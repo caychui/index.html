@@ -21,7 +21,31 @@ header {
 nav {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    justify-content: space-between;
+    padding: ;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #558AB0;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
     padding: 25px 100px 25px 95px;
+    display:flex;
     justify-content: space-between;
 }
 
@@ -29,6 +53,8 @@ nav {
     font-size: 24px;
     color:white;
     text-decoration: none;
+    justify-content: space-around;
+    display:flex;
 }
 
 h1 {
@@ -51,9 +77,12 @@ p {
 
 article {
     background-color: white;
-    padding: ;
+    padding: 10px 20px 10px 20px ;
     width: 400px;
     margin: 30px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .article-but {
@@ -63,16 +92,17 @@ article {
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
+    margin: 0px 50px 20px 50px
 }
 
 footer {
     background-color:#558AB0;
     padding: ;
-    disrlay:flex;
+    display:flex;
 }
 
 footer a {
-    margin-right: ;
+    margin-right:50px ;
 }
 
 footer p {
